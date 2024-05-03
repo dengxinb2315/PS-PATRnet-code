@@ -1,6 +1,6 @@
 rm(list = ls())
 library(reshape2)
-setwd("~/huangjiadai1/HJD/PAO1-chip-HH/top-bottom/")
+
 #TF_list <- c(read.delim("TF_list_TB.txt",header = F,sep = "\t"))
 chip_list <- read.delim("chip_list", header = F, sep = "\t")
 selex_list <- read.delim("selex_result/selex_list", header = F, sep = "\t")
